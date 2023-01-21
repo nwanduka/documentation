@@ -16,7 +16,6 @@ Each Nextcloud app is unique and different, but there are a couple of standards 
 * Software should get out of the way. Do things automatically instead of offering configuration options. When people ask for a setting, find out what the root of the problem is and fix that instead. Also read `Choosing our Preferences <http://ometer.com/preferences.html>`_.
 * People’s data is sacred. Provide undo for most operations and optionally a confirmation for bigger more complex operations, but be careful about confirmations `as they might be dismissed <http://www.alistapart.com/articles/neveruseawarning/>`_.
 * The state of the application should be clear. If something loads, provide feedback. Reactions should be quick, ideally under 100ms as per `response time limits <https://www.nngroup.com/articles/response-times-3-important-limits/>`_\.
-* The state of the application should be clear. If something loads, provide feedback.
 * Regularly reset your installation to see what the first-run experience is like, and improve it.
 * Ideally do `usability testing <http://jancborchardt.net/usability-in-free-software>`_ to know how people use the software. Testing with 5 users is enough to identify most of your problems.
 
